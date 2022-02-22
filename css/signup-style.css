@@ -1,0 +1,96 @@
+#signup-form {
+    color: red;
+    background-color: lightgreen;
+    height: 420px;
+    width: 540px;
+    border: solid 1px silver;
+    box-shadow: -6px 6px 6px silver;
+    padding: 0 10px;
+    font-family: fantasy;
+    border-radius: 6px;
+    -webkit-border-radious: 6px;
+    -moz-border-radious: 6px;
+    -o-border-radious: 6px;
+    -ms-border-radious: 6px;    
+}
+
+body{
+    min-height: calc(100vh);
+    margin:0 auto;
+    padding:0;
+    font-family: 'Otomanopee One', sans-serif;
+
+}
+#signup-form{
+    -o-border-radious: calc(6px);
+    -ms-border-radious:6px;
+    position: relative;
+    margin: 20px auto;
+    left: 0; right: 0;
+    top: 0; bottom: 0; 
+}
+.field-area{
+    height: 40px;
+    line-height: 40px;
+}
+.terms{
+    height: 10px; width: 10px;
+}
+.terms{
+    font-size: 10px;
+}
+.terms a{
+    color:#666666;
+}
+#signup-form label{
+    color: rgb(184, 84, 84);
+    font-style: inherit;
+    font-size: 18px;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+}
+.textfield{
+    height: 30px;
+    border: solid 1px silver;
+    border-radius: 3px;
+    padding: 0px 6px;
+}
+input.textfield{
+    width: 420px;
+}
+select.textfield{
+    width: 142px;
+}
+input[type="submit"], input[type="reset"]{
+    height: 30px;
+    margin: 3px 0;
+
+    display: block;
+    width: 100%;
+    border: solid 1px silver;
+    border-radius: 3px;
+    text-decoration-style: dotted;
+}
+input[type="submit"]{
+    background-color: skyblue;
+}
+#signup-form h3{
+    color: red;
+    border-bottom: 2px solid burlywood;
+    padding-top: 20;
+    padding-bottom: 20px;
+    margin: 0px;
+    text-align: center;
+    font-size: 30px;
+}
+input[type="submit"]:hover{
+    background-color: rgb(10, 105, 194);
+    color: white;
+    transition-duration: 0.5s;
+}
+input[type="reset"]:hover{
+    background-color: rgb(236, 39, 39);
+    color: white;
+    transition-duration: 0.5s;
+}

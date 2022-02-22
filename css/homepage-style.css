@@ -1,0 +1,180 @@
+body {
+    font-family: 'Otomanopee One', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 2rem 9%;
+    margin: 0;
+}
+
+.heading {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(163, 33, 33);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.heading span {
+    color: green;
+}
+
+
+/* home secton starts */
+
+.home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 8rem;
+    background: url(images/home-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: 100%;
+}
+
+.home .image img {
+    width: 100%;
+    padding: 0;
+    animation: float 3s linear infinite;
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0rem);
+    }
+    50% {
+        transform: translateY(3rem);
+    }
+}
+
+.home span {
+    color: darkgreen;
+}
+
+.home .content h2 {
+    font-size: 35px;
+    color: rgb(163, 33, 33);
+}
+
+.home .content p {
+    font-size: 20px;
+    color: darkgreen;
+}
+
+.btn {
+    background-color: #4CAF50;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1rem;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: transparent;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer
+}
+
+.btn:hover {
+    color: white;
+    background-color: orangered;
+    transition: 1s;
+}
+
+
+/* home section ends */
+
+
+/* Order sectoin starts */
+
+.order {
+    background-color: bisque;
+}
+
+.order .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding-top: 10px;
+}
+
+.order .box-container .box {
+    height: 350px;
+    flex: 5 5 300px;
+    border: 2px solid rgb(50, 146, 101);
+    box-shadow: 4px 2px rgba(0, 0, 0, .1);
+    border-radius: 0.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.order .box-container .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.order .box-container .box .content {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, .9);
+    padding: 0px;
+    text-align: center;
+}
+
+.order .box-container .box .content h3 {
+    font-size: 25px;
+    color: rgb(184, 32, 32);
+}
+
+.order .box-container .box .content p {
+    font-size: 16px;
+    color: rgb(7, 107, 57);
+    padding: 5px 0;
+}
+
+.order .box-container .box:hover .content {
+    top: 0;
+    transition-duration: 1s;
+}
+
+
+/* order section ends */
+
+
+/* step section starts */
+
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 2px;
+}
+
+.steps .box {
+    flex: 5 5 50px;
+    padding: 2px;
+    text-align: center;
+}
+
+.steps .box img {
+    border-radius: 80%;
+    border: 2px solid rgb(46, 42, 42);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+.steps .box h3 {
+    font-size: 30px;
+    color: #333;
+    padding: 2px;
+}
+
+
+/* step section ends */

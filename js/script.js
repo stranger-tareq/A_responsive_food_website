@@ -6,7 +6,7 @@ class MyHeader extends HTMLElement {
         this.innerHTML = `
     <style> 
     header {
-      background-color: rgb(9, 53, 38); 
+      background-color: rgb(9, 52, 38); 
       display: flex; 
       justify-content: space-between;
       flex-direction: row;
